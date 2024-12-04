@@ -1,0 +1,115 @@
+/* General styling */
+body {
+  font-family: Times New Roman , sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f8ff; /* Light blue background */
+  text-align: center; /* Centers the page content */
+}
+
+h1, h2, h3 {
+  color: #6a0dad; /* Purple text for titles */
+  margin-bottom: 20px;
+}
+
+p {
+  color: #333; /* Darker text for better readability */
+}
+
+/* Table styling */
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+th, td {
+  padding: 15px;
+  text-align: center;
+  border: 1px solid #ddd; /* Light gray borders */
+}
+
+th {
+  background-color: #6a0dad; /* Purple background for headers */
+  color: white; /* White text for table headers */
+  text-transform: uppercase; /* Capitalized headers */
+  font-size: 16px;
+}
+
+td {
+  font-size: 14px;
+  color: #555; /* Neutral color for table text */
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9; /* Alternate row color for readability */
+}
+
+tr:hover {
+  background-color: #e8e8ff; /* Light purple highlight on hover */
+}
+
+/* Button styling */
+button, .btn {
+  padding: 10px 20px;
+  font-size: 14px;
+  color: black; /* Black text for buttons */
+  background-color: #add8e6; /* Light blue background */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: capitalize; /* Keep text normal case */
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+button:hover, .btn:hover {
+  background-color: #87ceeb; /* Slightly darker blue on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+  transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+button:active, .btn:active {
+  transform: scale(0.98); /* Slightly shrink on click */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); /* Less intense shadow on click */
+}
+
+/* Specific styles for links styled as buttons */
+a.btn {
+  display: inline-block;
+  text-decoration: none; /* Remove underline */
+  text-align: center;
+  line-height: normal; /* Match button line height */
+}
+
+/* Adjust spacing for buttons in a row */
+button + button, .btn + .btn {
+  margin-left: 10px; /* Add space between buttons */
+}
+
+/* Table heading */
+.table-heading {
+  margin-top: 30px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #6a0dad; /* Purple heading */
+  text-transform: uppercase;
+}
+
+/* Additional container for alignment */
+.container {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* Footer Styling */
+footer {
+  margin-top: 30px;
+  padding: 10px 0;
+  background-color: #6a0dad; /* Purple footer */
+  color: white;
+  text-align: center;
+}
